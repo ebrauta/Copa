@@ -1,0 +1,12 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "download-squads.js",
+  "scripts": {
+    "download": "node download-squads.js"
+  }
+}
