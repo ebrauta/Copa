@@ -1,4 +1,3 @@
-import { log } from 'console';
 import fs from 'fs/promises'
 import path from 'path'
 
