@@ -1,6 +1,5 @@
-import index from "../../data/index.json" with { type: "json" };
-
-export function getTeamsByWorldCup(year) {
+export async function getTeamsByWorldCup(year) {
+    const index = await fetch("./data/index.json").then(r => r.json());
     return index
         .filter(team => team.copa === year)
         .sort((a, b) =>
